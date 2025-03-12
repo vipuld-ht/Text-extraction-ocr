@@ -67,7 +67,7 @@ def upload_text_to_s3(file_name, text):
             frame=dynamic_frame,
             connection_type="s3",
             connection_options={"path": f"s3://{BUCKET_NAME}/{s3_key}"},
-            format="pdf"
+            format="json"
         )
         print(f"✅ Uploaded: s3://{BUCKET_NAME}/{s3_key}")
     except Exception as e:
