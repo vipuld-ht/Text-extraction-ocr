@@ -35,7 +35,7 @@ Ensure the following dependencies are installed:
 - Docker
 - AWS credentials (Access Key, Secret Key, and Session Token)
 - Workspace environment variable
-
+- Pull the repo --> https://github.com/vipuld-ht/Text-extraction-ocr.git
 ## Setup & Execution
 
 ### 1. Export Workspace Location
